@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="blogsite.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<title></title>
+</head>
+<body>
+
+	<div class="post">
+		<p class="date">November 23 2015</p>
+		<h2>This is My First Article</h2>
+		
+			<p class="firstp">Schlitz jean shorts kinfolk everyday carry crucifix farm-to-table. Organic normcore kinfolk fingerstache, actually fixie locavore chambray yr trust fund. Cronut authentic mlkshk lomo, heirloom slow-carb knausgaard meh you probably haven't heard of them direct trade seitan bushwick. Cliche blue bottle pinterest cred williamsburg. Single-origin coffee waistcoat tattooed before they sold out banjo trust fund. Put a bird on it tote bag fixie, waistcoat meh gentrify craft beer twee ennui fashion axe lomo sriracha keytar XOXO pop-up. Marfa flannel gastropub +1 next level.</p>
+			<p>Bitters vegan fap, austin kombucha tofu migas hashtag flexitarian cold-pressed lomo banjo asymmetrical tattooed. Organic chicharrones microdosing, taxidermy echo park tumblr vinyl keytar letterpress distillery helvetica. Plaid hella cliche, church-key typewriter bitters pabst forage mlkshk next level wayfarers photo booth. Everyday carry forage kombucha organic brunch. Craft beer occupy 8-bit, keffiyeh yr etsy DIY heirloom squid. Roof party venmo flannel humblebrag affogato hammock, DIY farm-to-table organic lomo. YOLO etsy everyday carry health goth, retro iPhone pabst lomo farm-to-table food truck cardigan migas biodiesel taxidermy ugh.</p>
+			<p>Keffiyeh umami microdosing lo-fi 3 wolf moon roof party gluten-free hashtag brunch, butcher twee next level drinking vinegar bespoke pickled. Sartorial neutra gluten-free knausgaard crucifix, four dollar toast wolf trust fund etsy. Salvia humblebrag chambray, selvage gochujang actually direct trade fashion axe authentic skateboard waistcoat crucifix art party chia drinking vinegar. Stumptown hoodie echo park, tacos franzen health goth authentic yr single-origin coffee schlitz dreamcatcher literally. Bitters cardigan kitsch cronut. Whatever dreamcatcher tilde austin blog bushwick. Fingerstache single-origin coffee pop-up, ennui fixie vice tote bag flexitarian gluten-free wolf waistcoat kickstarter.</p>
+		<hr>
+	</div>
+
+	<div class="post">
+		<p class="date">December 11 2015</p>
+		<h2>This is My Second Article</h2>
+		
+			<p class="firstp">Schlitz jean shorts kinfolk everyday carry crucifix farm-to-table. Organic normcore kinfolk fingerstache, actually fixie locavore chambray yr trust fund. Cronut authentic mlkshk lomo, heirloom slow-carb knausgaard meh you probably haven't heard of them direct trade seitan bushwick. Cliche blue bottle pinterest cred williamsburg. Single-origin coffee waistcoat tattooed before they sold out banjo trust fund. Put a bird on it tote bag fixie, waistcoat meh gentrify craft beer twee ennui fashion axe lomo sriracha keytar XOXO pop-up. Marfa flannel gastropub +1 next level.</p>
+			<p>Bitters vegan fap, austin kombucha tofu migas hashtag flexitarian cold-pressed lomo banjo asymmetrical tattooed. Organic chicharrones microdosing, taxidermy echo park tumblr vinyl keytar letterpress distillery helvetica. Plaid hella cliche, church-key typewriter bitters pabst forage mlkshk next level wayfarers photo booth. Everyday carry forage kombucha organic brunch. Craft beer occupy 8-bit, keffiyeh yr etsy DIY heirloom squid. Roof party venmo flannel humblebrag affogato hammock, DIY farm-to-table organic lomo. YOLO etsy everyday carry health goth, retro iPhone pabst lomo farm-to-table food truck cardigan migas biodiesel taxidermy ugh.</p>
+			<p>Keffiyeh umami microdosing lo-fi 3 wolf moon roof party gluten-free hashtag brunch, butcher twee next level drinking vinegar bespoke pickled. Sartorial neutra gluten-free knausgaard crucifix, four dollar toast wolf trust fund etsy. Salvia humblebrag chambray, selvage gochujang actually direct trade fashion axe authentic skateboard waistcoat crucifix art party chia drinking vinegar. Stumptown hoodie echo park, tacos franzen health goth authentic yr single-origin coffee schlitz dreamcatcher literally. Bitters cardigan kitsch cronut. Whatever dreamcatcher tilde austin blog bushwick. Fingerstache single-origin coffee pop-up, ennui fixie vice tote bag flexitarian gluten-free wolf waistcoat kickstarter.</p>
+	</div>
+	
+</body>
+</html>
+**************************************************************************************************************
+body {
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	font-family: "Source Sans Pro";
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 2rem;
+}
+
+.firstp {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.post {
+	margin-bottom: 20px;
+}
